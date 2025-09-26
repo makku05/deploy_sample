@@ -13,4 +13,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Gitiposts のリソースルーティング（必要に応じて）
+  resources :gitiposts
+  # ... その他のルーティング
 end
